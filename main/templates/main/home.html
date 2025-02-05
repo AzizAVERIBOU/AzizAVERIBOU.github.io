@@ -1,0 +1,66 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="home-intro">
+    <div class="profile-photo">
+        <img src="{% static 'images/profile.jpg' %}" alt="AVERIBOU AZIZ" loading="lazy">
+    </div>
+    
+    <div class="personal-header">
+        <h1 class="name">AVERIBOU AZIZ</h1>
+        <h2 class="title">Étudiant en Informatique</h2>
+    </div>
+
+    <div class="personal-details">
+        <div class="detail-item">
+            <i class="fas fa-university"></i>
+            <div class="detail-content">
+                <strong>Formation</strong>
+                <p>Baccalauréat en Informatique accès Génie Logiciel</p>
+                <p>Université du Québec À Rimouski - Campus de Lévis</p>
+            </div>
+        </div>
+
+        <div class="detail-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="detail-content">
+                <strong>Localisation</strong>
+                <p>Saint Romuald, Lévis, Québec</p>
+            </div>
+        </div>
+
+        <div class="detail-item">
+            <i class="fas fa-envelope"></i>
+            <div class="detail-content">
+                <strong>Courriel</strong>
+                <p><a href="mailto:azizaveribou6123@gmail.com">azizaveribou6123@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="detail-item">
+            <i class="fas fa-phone"></i>
+            <div class="detail-content">
+                <strong>Téléphone</strong>
+                <p><a href="tel:+14182617814">+1 (418) 261-7814</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-section about-me">
+        <h3><i class="fas fa-user"></i> À Propos de Moi</h3>
+        <p>Je suis étudiant en informatique à l'Université du Québec à Rimouski, Campus de Lévis, avec une expérience pertinente dans le service à la clientèle au Québec. Actuellement, je suis à la recherche d'un stage universitaire qui me permettra de mettre en pratique mes compétences informatiques et d'élargir mes connaissances dans un environnement professionnel. Passionné par les projets innovants et dynamiques, je souhaite contribuer activement grâce à mon engagement envers l'excellence, ma motivation à relever des défis stimulants et mon expérience en interaction avec la clientèle. Ce stage représente pour moi une opportunité précieuse de combiner mes compétences techniques avec mes aptitudes interpersonnelles pour faire une différence au sein de votre équipe.</p>
+    </div>
+
+    <div class="contact-section">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/aziz-averibou-51b782323" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/AzizAVERIBOU" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %} 
